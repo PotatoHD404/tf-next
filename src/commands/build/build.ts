@@ -216,7 +216,7 @@ async function buildCommand({
       workPath,
       repoRootPath: mode === 'download' ? tmpDir!.name : repoRootPath,
       entrypoint,
-      config: { sharedLambdas: true },
+      config: { sharedLambdas: true, maxLambdaSize: 500 * 1024 * 1024 },
       meta: {
         isDev: false,
         // @ts-ignore
