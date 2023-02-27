@@ -1,22 +1,20 @@
 {
-  "name": "tf-next",
-  "version": "1.0.0-canary.5",
+  "name": "@potatohd/tf-next",
+  "version": "0.1.1",
   "description": "CLI build tool for AWS Next.js Terraform module.",
   "homepage": "https://registry.terraform.io/modules/milliHQ/next-js/aws",
   "main": "index.js",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/milliHQ/terraform-aws-next-js.git",
-    "directory": "packages/tf-next"
+    "url": "https://github.com/PotatoHD404/tf-next.git",
+    "directory": "./"
   },
   "bin": {
     "tf-next": "index.js"
   },
   "scripts": {
-    "build": "tsc",
-    "prepack": "cp ../../LICENSE ./",
-    "postpack": "rm ./LICENSE"
+    "build": "tsc"
   },
   "dependencies": {
     "@aws-crypto/sha256-js": "^2.0.1",

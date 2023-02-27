@@ -1,7 +1,11 @@
 # Terraform Next.js CLI
 
+## Took this from 
+
 Command-line interface (CLI) companion tool for [Terraform Next.js module for AWS](https://github.com/milliHQ/terraform-aws-next-js).  
 It is used for [building](#build) Next.js apps, deployment and management of deployments.
+
+## Changed allowed size of lambda to 500mb
 
 ## Getting Started
 
@@ -10,7 +14,7 @@ This covers only the CLI part of the tool, for a full step-by-step tutorial plea
 1. Install the CLI tool
 
    ```plain
-   npm i -g tf-next@canary
+   npm i -g @potatohd/tf-next
    ```
 
 2. Build the project
