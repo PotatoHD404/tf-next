@@ -3,7 +3,9 @@ import { URL, URLSearchParams } from 'url';
 import { Sha256 } from '@aws-crypto/sha256-js';
 import { SignatureV4 } from '@aws-sdk/signature-v4';
 import { HeaderBag, MemoizedProvider, QueryParameterBag } from '@aws-sdk/types';
+// @ts-ignore
 import { paths } from '@millihq/terraform-next-api/schema';
+// @ts-ignore
 import { Credentials } from 'aws-lambda';
 import nodeFetch, { HeadersInit } from 'node-fetch';
 import pWaitFor from 'p-wait-for';
