@@ -28,7 +28,7 @@
     "ansi-escapes": "4.3.2",
     "archiver": "^5.3.0",
     "chalk": "4.1.2",
-    "clipboardy": "2.3.0",
+    "clipboardy": "3.0.0",
     "find-yarn-workspace-root": "^2.0.0",
     "form-data-encoder": "^1.7.2",
     "formdata-node": "^4.3.2",
